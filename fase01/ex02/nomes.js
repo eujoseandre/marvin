@@ -1,4 +1,3 @@
-
-function nomes (nomes1, nomes2){
-    console.log(nomes1 + " e " + nomes2)
+function nomes(nome1, nome2){
+    return nome1 + " e " + nome2;
 }
