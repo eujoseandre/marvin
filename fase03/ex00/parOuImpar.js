@@ -1,12 +1,6 @@
-function nove(numero){
-    
-    var num = numero.toString();
-    num = num.charAt(num.length - 1);
-    
-    if(num === "9"){
-        return true;
+function parOuImpar(numero){
+    if(numero%2 === 0){
+        return "Par";
     }
-    else{
-        return false;
-    }
+    else return "Ímpar";
 }
