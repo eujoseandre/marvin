@@ -9,7 +9,8 @@ function tempo(data1, data2, unidade){
     if(unidade === "dia"){
         return dia;
     }
-    else if (unidade === "mes"){
+    else if (unidade === "mês"){
+        
         return mes;
     }
     else return ano;
