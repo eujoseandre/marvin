@@ -19,7 +19,8 @@ function precoMedio(){
    }
    while (j < arguments.length){
         if (array[j].preco == numeroMaior){
-           console.log('O produto mais caro se chama ' + array[j].nome)
+            let string = array[j].nome;
+           console.log('O produto mais caro se chama ' + '"' + array[j].nome + '"')
        }
        j++;
    }
